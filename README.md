@@ -4,7 +4,6 @@ I built this project to practice working on a real healthcare dataset instead of
 My main goal was to understand how patient admissions and insurance costs are connected, and how we can identify high-risk or high-cost cases using data.
 
 ## What I did in this project
-
 First, I imported the raw CSV files into MySQL 8.0.
 I used `LOAD DATA INFILE` instead of the import wizard because the dataset was large. I also handled issues like date formatting and null values.
 After cleaning the data, I created proper tables instead of keeping everything in one single flat table. I designed fact and dimension tables so that analysis becomes easier and faster.
@@ -21,7 +20,7 @@ Finally, I built a Power BI dashboard to show:
 * Average treatment cost
 * High-risk patient percentage
 * Insurance provider comparison
-* 
+  
 ## What I learned
 This project helped me understand:
 * How to handle large CSV imports in MySQL
