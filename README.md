@@ -14,6 +14,7 @@ Then I worked on:
 * Finding readmission patterns
 * Categorizing patients based on risk level
 For additional analysis, I used Python (pandas and basic machine learning models) to experiment with simple risk scoring logic.
+
 Finally, I built a Power BI dashboard to show:
 * Total claims
 * Monthly trends
